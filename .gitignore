@@ -1,0 +1,10 @@
+# Ignore virtual environments
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.csv  # If you don't want to push the CSV file, otherwise remove this line
+
+# Ignore environment variables
+.env
