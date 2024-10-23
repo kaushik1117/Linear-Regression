@@ -9,7 +9,7 @@ def app():
 
     with tab1:
         st.header("This is Raw CSV file")
-        data = pd.read_csv(r"C:\Users\disha\Desktop\Salary_Data[1].csv")
+        data = pd.read_csv(r"Salary_Data[1].csv")
 
         # Display the raw data
         st.write("Raw Data Preview:", data)
